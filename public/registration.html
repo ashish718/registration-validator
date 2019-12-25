@@ -1,0 +1,47 @@
+
+<html>
+<head>
+	<title>Registation Form</title>
+	<link href="/stylesheets/registration.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="/javascripts/alphabetValidate.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div id="view" value="" ></div>
+
+		<div>
+			<h1>Registration</h1>
+		    <p>Please fill details in this form and all fields are mandatory.</p>
+
+
+			<hr>
+
+			<label for="name"><b>Name:</b></label>
+			<input type="text" id="fullname" name="name" placeholder="Enter Full Name"  >
+
+			<label for="rollno"><b>Roll No.:</b></label>
+			<input type="text" id="rollno" name="rollno" placeholder="Enter Roll No" required>
+
+			<label for="class"><b>Class</b></label>
+			<input type="text" id="class" name="class" placeholder="Enter Class" required>
+
+			<label for="school"><b>School</b></label>
+			<input type="text" id="school" name="school" placeholder="Enter School Name" required>
+
+			<label for="dob"><b>DOB</b></label>
+			<input type="text" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
+
+			<button onclick="test()" class="registrationbtn">Register</button>
+
+		</div>
+
+		<button id="detailLink"> <a href='http://localhost:3000/student'>Student List</a>></button>
+
+	</div>	
+
+</body>
+</html>
+
+

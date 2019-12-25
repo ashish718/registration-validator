@@ -1,0 +1,56 @@
+Project: Students Details Collection
+There are two pages one contain student registration page and other Student list who registered.
+
+Getting Started : 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+
+
+Prerequisites :
+What things you need to install the software and how to install them
+
+Node.js 
+MongoDB 
+Editor- read & write.
+
+
+
+
+Installing:
+A step by step series of examples that tell you how to get a development env running
+
+->unzip the code file
+->Run npm install on terminal for installing node packages
+->For MongoDB i used mlab, my credentials is already saved, no need to change
+
+-> for starting the server just write node bin/www
+just hit the http://localhost:3000 on browser for opening the student registration page.
+
+
+
+
+Running the tests:
+->open terminal navigate to extract folder and type & npm install 
+->type node bin/wwww for starting the server.
+-> open browser and copy & paste the link http://localhost:3000 for opening the student registration page which is built in html.
+	>In registration page validations is used example
+		-In Name and School only alphabets and white spaces is allowed
+		-In Roll Number only numbers allowed and can't be duplicate, if student1 taken rollno: 1234 then no one can't take
+-> And http://localhost/student for viewing the student List which is built in ejs ttemplate
+
+
+
+
+Built With:
+
+->Nodejs
+->Express Framework
+->Mongoose package
+->mlab for database storage
+	mLab is a fully managed cloud database service that hosts MongoDB databases. mLab runs on cloud providers Amazon, Google, and Microsoft Azure, and has partnered with platform-as-a-service providers
+->Javascript
+->JQuery
+->Html
+->Ejs template
+->Css styling
+

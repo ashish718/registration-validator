@@ -1,0 +1,31 @@
+#formLink{
+  padding: 10px;
+}
+
+#formLink a{
+  padding: 30px;
+}
+
+h1{
+    text-align:center;
+    margin: auto;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
